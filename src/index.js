@@ -6,12 +6,24 @@ import {
 } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import HomePage from './Pages/HomePage';
+import ContactPage from './Pages/ContactPage';
+import RootLayout from './Routes/RootLayout';
 import './index.css';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage />,
+    element: <RootLayout />,
+    children: [
+      {
+        path: "/",
+        element: <HomePage />,
+      },
+      {
+        path: "/Contact",
+        element: <ContactPage />,
+      },
+    ]
   },
 ]);
 
