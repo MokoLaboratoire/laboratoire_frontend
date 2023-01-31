@@ -8,7 +8,9 @@ import reportWebVitals from './reportWebVitals';
 import HomePage from './Pages/HomePage';
 import ContactPage from './Pages/ContactPage';
 import RootLayout from './Routes/RootLayout';
-import './index.css';
+import './index.scss';
+import './Assets/Fonts/Roboto/Roboto-Light.ttf'
+import './Assets/Fonts/Roboto/Roboto-Medium.ttf'
 
 const router = createBrowserRouter([
   {
