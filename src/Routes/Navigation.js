@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { createBrowserRouter, Link } from "react-router-dom";
 import '../Styles/Routes/Navigation.css'
 
 const Navigation = () => {
@@ -8,6 +8,9 @@ const Navigation = () => {
         <ul>
             <li>
                 <Link className='rrd_link' to="/">Home</Link>
+            </li>
+            <li>
+                <Link className='rrd_link' to="/coding">Coding</Link>
             </li>
             <li>
                 <Link className='rrd_link' to="/contact">Contact</Link>
