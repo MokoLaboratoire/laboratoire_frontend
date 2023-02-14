@@ -1,14 +1,14 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import Navigation from './Navigation'
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+import Navigation from './Navigation';
 
 const RootLayout = () => {
   return (
     <>
-        <Navigation />
-        <Outlet />
+      <Navigation />
+      <Outlet />
     </>
-  )
-}
+  );
+};
 
-export default RootLayout
+export default RootLayout;

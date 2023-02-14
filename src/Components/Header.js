@@ -1,12 +1,12 @@
-import React from 'react'
-import Navigation from '../Routes/Navigation'
+import React from 'react';
+import Navigation from '../Routes/Navigation';
 
 const Header = () => {
   return (
     <header>
-        <Navigation />
+      <Navigation />
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

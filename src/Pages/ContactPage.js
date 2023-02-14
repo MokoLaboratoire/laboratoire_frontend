@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { useLocation } from 'react-router-dom';
 
 const ContactPage = () => {
@@ -8,7 +8,7 @@ const ContactPage = () => {
       <div>ContactPage</div>
       <div>location.pathname: {location.pathname}</div>
     </>
-  )
-}
+  );
+};
 
-export default ContactPage
+export default ContactPage;
