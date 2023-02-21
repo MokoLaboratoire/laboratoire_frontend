@@ -19,3 +19,8 @@ ul {
   color: $white_color;
   text-decoration: none;
 }
+
+.rrd_link:hover,
+.rrd_link.active {
+  background-color: $red_color;
+}
