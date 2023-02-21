@@ -1,14 +1,9 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+
+import HomeScene from '../Components/Scene/HomeScene';
 
 const HomePage = () => {
-  let location = useLocation();
-  return (
-    <>
-      <div>HomePage</div>
-      <div>location.pathname: {location.pathname}</div>
-    </>
-  );
+  return <HomeScene />;
 };
 
 export default HomePage;

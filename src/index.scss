@@ -11,9 +11,13 @@
     url('./Assets/Fonts/Roboto/Roboto-Medium.ttf') format('truetype');
 }
 
-* {
-  margin: 0px;
-  padding: 0px;
-  font-family: RobotoLight;
-  color: $black_color;
+*,
+html,
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  font-family: RobotoLight, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
